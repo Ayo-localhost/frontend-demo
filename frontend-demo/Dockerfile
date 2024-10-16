@@ -10,4 +10,4 @@ RUN npm run build
 
 EXPOSE 8080
 
-CMD ["npm", "start", "--", "--port", "8080", "--host"]
+CMD ["npm", "start", "--", "--port", "8080", "--host", "0.0.0.0"]
